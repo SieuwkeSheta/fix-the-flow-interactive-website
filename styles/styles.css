@@ -664,4 +664,139 @@ footer {
 
 
 
+/* Contact pagina */
+
+.top-contact-page {
+    background-image: url(https://sieuwkesheta.github.io/look-and-feel-corporate-identity/assets/person-behind-laptop.jpg);
+    background-color: var(--black-color);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+
+    color: var(--white-color);
+    text-align: center;
+    padding: 3em;
+
+    @media (min-width: 1000px) {
+        padding: 6em;
+    }
+}
+
+.nav-on-page {
+    padding: 1.5em;
+    display: grid;
+    justify-content: center;
+    gap: 0.5em;
+
+    @media (min-width: 700px) {
+        display: flex;
+        gap: 1.5em;
+        padding: 2em;
+    }
+
+    @media (min-width: 900px) {
+        gap: 5em;
+    }
+
+    & a {
+        font-weight: 700;
+        color: var(--black-color);
+
+        @media (min-width: 900px) {
+            font-size: var(--font-size-l);
+        }
+
+        &::after {
+            content:"";
+            background-image: url(/assets/arrow-right.svg);
+            background-repeat: no-repeat;
+            background-position: 0.3em 0.9em;
+            background-size: 0.4em;
+            padding: 0.5em;
+
+        }
+
+        &:hover {
+            color: var(--accent-color);
+        }
+
+        &:active {
+            color: var(--accent-color);
+            text-shadow: 1px 1px 1px rgba(48, 48, 48, 0.395);
+
+        }
+    }
+
+}
+
+.contact-form {
+    background-color: var(--primary-color);
+    padding: 1em 2em 2em;
+
+    @media (min-width: 900px) {
+        padding: 2em 2em 4em;
+    }
+
+
+    & h2 {
+        color: var(--white-color);
+        margin-bottom: 0.5em;
+        text-align: center;
+        
+        @media (min-width: 900px) {
+            font-size: var(--font-size-heading-m);
+        }
+        
+    }
+
+    .contact-form-inside {
+        display: grid;
+        margin: auto;
+        gap: 1em;
+
+        max-width: 35em;
+        
+        background-color: var(--white-color);
+        border-radius: 5px;
+        padding: 1em;
+
+        & p span {
+            color: red;
+        }
+        
+        .Submit-ad {
+            justify-self:center;
+
+            &:hover {
+                outline: 1px solid var(--accent-color)
+            }
+        }
+
+        label {
+            gap: 0.1em;
+            @media (min-width: 900px) {
+                font-size: var(--font-size-m);
+            }
+        }
+
+        textarea {
+            resize: none;
+            height: 5em;
+        }
+    }
+
+}
+
+#daily-management {
+    text-align: center;
+    padding: 2em;
+
+    @media (min-width: 900px) {
+        font-size: var(--font-size-heading-m);
+    }
+}
+
+
+
+
 
