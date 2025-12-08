@@ -13,9 +13,9 @@ function toggleHamMenu() {
 // Gemaakt met behulp van deze video, van Kevin Powell: https://www.youtube.com/watch?v=jZiZs8cZAKU&t=146s
 
 // 1. Selecteer de knoppen om nieuwsartikelen te filteren
-let filterList = document.querySelector('.news-articles-filter')
-let filterButtons = filterList.querySelectorAll('.filter-btn')
-let newsArticles = document.querySelectorAll('.news-article')
+const filterList = document.querySelector('.news-articles-filter')
+const filterButtons = filterList.querySelectorAll('.filter-btn')
+const newsArticles = document.querySelectorAll('.news-article')
 
 
 // 2. Wacht tot een gebruiker op een knop van de filters klikt
@@ -25,7 +25,7 @@ filterButtons.forEach((button) => {
     button.addEventListener('click', function() {
 
         // Laat 'filter' de html attribuut van een aangeklikte knop vinden 
-        let filter = button.getAttribute('data-filter')
+        const filter = button.getAttribute('data-filter')
 
         // Verander de 'active' class op een knop, 'target' (een js term) is de knop waar op geklikt wordt
         updateActiveButton(button)
@@ -49,7 +49,7 @@ function updateActiveButton(newButton){
 function filterNewsArticles(articleFilter) {
     // Vind de data-category van elk nieuws artikel
     newsArticles.forEach((newsArticle) => {
-        let newsArticleCategory = newsArticle.getAttribute('data-category')
+        const newsArticleCategory = newsArticle.getAttribute('data-category')
     
         // Check of die data-category overeenkomt met de data-filter
         if (articleFilter === 'all' || articleFilter === newsArticleCategory){
