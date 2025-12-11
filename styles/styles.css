@@ -125,9 +125,23 @@ nav {
             display: none;
         }
 
+        /* Laat kruisje van menu niet zien tot de class 'is-open' is toegevoegd */
+        & .exit-menu {
+            display: none;
+        }
+
         &.is-open {
             border: 0.15em solid var(--primary-color);
             border-radius: 5px;
+
+            & .exit-menu {
+                display: block;
+                width: 2.5em;
+            }
+
+            & .open-menu {
+                display: none;
+            }
         }
     }
     
