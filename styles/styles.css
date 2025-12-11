@@ -819,6 +819,22 @@ footer {
 
 /* Nieuws pagina */
 
+/* Header nieuws pagina */
+.news-hero {
+    background-image: url(/assets/news-page/nieuws-pagina-hero.png);
+    background-repeat: no-repeat;
+    background-color: var(--black-color);
+    background-size: cover;
+    padding: 2em;
+    text-align: center;
+    color: var(--white-color);
+
+    @media (min-width:900px) {
+        padding: 3em;
+    }
+
+}
+
 /* Nieuws artikelen filter */
 .news-articles-filter {
     display: flex;
