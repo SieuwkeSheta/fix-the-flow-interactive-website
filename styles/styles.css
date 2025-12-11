@@ -642,7 +642,11 @@ footer {
             justify-content: space-around;
             gap: 1em;
             padding: 1em;
-            animation: scroll 45s infinite linear;
+
+            animation-name: scroll;
+            animation-duration: 45s; 
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
             
             /* Pauseert de animatie als 'reduced-motion' aan staat */
             @media (prefers-reduced-motion: reduce) {
@@ -672,8 +676,9 @@ footer {
 
 /* Animatie voor carousel */
 @keyframes scroll {
-    from {translate: 0;}
-    to {translate: -100%;}
+    100% {
+        translate: -100%;
+    }
 }
 
 
