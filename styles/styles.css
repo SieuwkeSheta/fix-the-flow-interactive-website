@@ -821,7 +821,7 @@ footer {
 
 /* Header nieuws pagina */
 .news-hero {
-    background-image: url(/assets/news-page/nieuws-pagina-hero.png);
+    background-image: url(https://sieuwkesheta.github.io/fix-the-flow-interactive-website/assets/news-page/nieuws-pagina-hero.png);
     background-repeat: no-repeat;
     background-color: var(--black-color);
     background-size: cover;
