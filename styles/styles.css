@@ -621,14 +621,13 @@ footer {
             text-underline-offset: 4px;
 
             &::after {
-            content:"";
-            background-image: url(https://sieuwkesheta.github.io/look-and-feel-corporate-identity/assets/arrow-right.svg);
-            background-repeat: no-repeat;
-            background-position: 0.3em 0.9em;
-            background-size: 0.4em;
-            padding: 0.5em;
-
-        }
+                content:"";
+                background-image: url(https://sieuwkesheta.github.io/look-and-feel-corporate-identity/assets/arrow-right.svg);
+                background-repeat: no-repeat;
+                background-position: 0.3em 0.9em;
+                background-size: 0.4em;
+                padding: 0.5em; */
+            }
 
             &:hover {
                 color: var(--accent-color);
@@ -652,7 +651,7 @@ footer {
             display: flex;
             align-items: center;
             justify-content: space-around;
-            gap: 1em;
+            gap: 4em;
             padding: 1em;
 
             animation-name: scroll;
