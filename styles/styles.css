@@ -626,7 +626,7 @@ footer {
                 background-repeat: no-repeat;
                 background-position: 0.3em 0.9em;
                 background-size: 0.4em;
-                padding: 0.5em; */
+                padding: 0.5em;
             }
 
             &:hover {
@@ -961,5 +961,3 @@ ul.news-articles-list {
         }
     }
 }
-
-
