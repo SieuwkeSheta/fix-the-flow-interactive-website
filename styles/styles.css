@@ -864,6 +864,7 @@ footer {
         color: var(--primary-lighter-color);
         background-color: transparent;
         border: transparent;
+        transition: 0.3s;
 
         &:hover:not(.active) {
             text-decoration: 2px solid underline;
