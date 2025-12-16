@@ -847,6 +847,11 @@ footer {
 }
 
 /* Nieuws artikelen filter */
+li a[href="nieuws.html"]{
+    text-decoration: 2px solid underline;
+    text-underline-offset: 5px;
+}
+
 .news-articles-filter {
     display: flex;
     flex-wrap: wrap;
