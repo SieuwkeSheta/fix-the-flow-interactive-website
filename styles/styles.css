@@ -962,3 +962,28 @@ ul.news-articles-list {
         }
     }
 }
+
+.more-news-bar {
+    text-align: center;
+    font-size: var(--font-size-s);
+
+    & a {
+        padding: 1em;
+        text-decoration: none;
+
+        &:nth-of-type(2) {
+            text-decoration: 2px solid underline var(--primary-color);
+            text-underline-offset: 0.3em;
+        }
+
+        &:hover {
+            text-decoration: 2px solid underline var(--primary-color);
+            text-underline-offset: 0.3em;
+        }
+
+        &:active {
+            color: var(--accent-color);
+            text-decoration-color: var(--accent-color);
+        }
+    }
+}
