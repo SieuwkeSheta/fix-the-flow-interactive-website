@@ -40,7 +40,7 @@ De website is responsive en is Mobile first ontworpen en gemaakt.
 
 *Mockup van nieuws-pagina*
 
-https://github.com/user-attachments/assets/ba06c7dd-a87e-4392-9719-b9ef2ce4e325
+<video src="https://github.com/user-attachments/assets/ba06c7dd-a87e-4392-9719-b9ef2ce4e325"></video>
 
 
 
