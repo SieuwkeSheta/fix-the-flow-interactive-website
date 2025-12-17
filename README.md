@@ -1,5 +1,5 @@
 # Ad Connect - Platform Ad
-In sprint 2 hebben we de opdracht gekregen om een website te ontwikkelen voor een opdrachtgever, samen met 2 teams van 1e jaars FDND-studenten en 1 team 2e jaars FDND-studenten. Tijdens deze vijfde sprint heb ik mij gericht op het ontwerpen, maken en implementeren van een JS interactie, een filter, op de nieuws pagina.
+In sprint 2 hebben we de opdracht gekregen om een website te ontwikkelen voor een opdrachtgever, samen met 2 teams van 1e jaars FDND-studenten en 1 team 2e jaars FDND-studenten. Tijdens deze vijfde (laatste) sprint heb ik mij gericht op het ontwerpen, maken en implementeren van een JS interactie, een filter, op de nieuws pagina.
 
 Voor het maken van een JS interactie op de nieuws pagina, heb ik eerst op meerdere nieuws websites onderzoek gedaan en gekeken naar wat voor lay-out die gebruiken. Velen gebruiken filters, dus daar heb ik mij verder in verdiept. 
 
